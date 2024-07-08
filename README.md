@@ -53,7 +53,36 @@ Este proyecto implementa un backend para la gestión de información de libros u
     python manage.py runserver
     ```
 
-## Uso
+### Uso con Docker
+
+Para utilizar este proyecto con Docker, sigue los siguientes pasos:
+
+1. Asegúrate de tener Docker instalado en tu sistema.
+
+2. Clona el repositorio:
+    ```sh
+    git clone https://github.com/cesarmauriciodr/seek-test.git
+    cd seek-test
+    ```
+
+3. Construye la imagen de Docker:
+    ```sh
+    docker build -t seek-test .
+    ```
+
+4. Crea un contenedor a partir de la imagen:
+    ```sh
+    docker run -d -p 8000:8000 --name seek-test-container seek-test
+    ```
+
+5. Accede a la aplicación en tu navegador web:
+    ```
+    http://localhost:8000
+    ```
+
+¡Listo! Ahora puedes utilizar la aplicación utilizando Docker.
+
+
 
 ### Autenticación
 
