@@ -121,6 +121,7 @@ Primero, obtén un token de acceso mediante la API de autenticación:
 ### Documentación de la API
 
 La documentación Swagger de la API está disponible en:
+
     ```
     http://127.0.0.1:8000/swagger/
     ```
