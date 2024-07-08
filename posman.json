@@ -1,0 +1,134 @@
+{
+    "info": {
+      "_postman_id": "a9a4b5f7-92f1-49d4-84b0-7dbb53619911",
+      "name": "Book Management API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "List all books",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "body": {},
+          "url": {
+            "raw": "{{baseUrl}}/api/books/",
+            "host": [
+              "{{baseUrl}}"
+            ],
+            "path": [
+              "api",
+              "books"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Create a new book",
+        "request": {
+          "method": "POST",
+          "header": [],
+          "body": {},
+          "url": {
+            "raw": "{{baseUrl}}/api/books/",
+            "host": [
+              "{{baseUrl}}"
+            ],
+            "path": [
+              "api",
+              "books"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Get a book by ID",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "body": {},
+          "url": {
+            "raw": "{{baseUrl}}/api/books/{id}/",
+            "host": [
+              "{{baseUrl}}"
+            ],
+            "path": [
+              "api",
+              "books",
+              "{id}"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Update a book by ID",
+        "request": {
+          "method": "PUT",
+          "header": [],
+          "body": {},
+          "url": {
+            "raw": "{{baseUrl}}/api/books/{id}/",
+            "host": [
+              "{{baseUrl}}"
+            ],
+            "path": [
+              "api",
+              "books",
+              "{id}"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Delete a book by ID",
+        "request": {
+          "method": "DELETE",
+          "header": [],
+          "body": {},
+          "url": {
+            "raw": "{{baseUrl}}/api/books/{id}/",
+            "host": [
+              "{{baseUrl}}"
+            ],
+            "path": [
+              "api",
+              "books",
+              "{id}"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Get average price of books by year",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "body": {},
+          "url": {
+            "raw": "{{baseUrl}}/api/books/average_price/?year=2023",
+            "host": [
+              "{{baseUrl}}"
+            ],
+            "path": [
+              "api",
+              "books",
+              "average_price"
+            ],
+            "query": [
+              {
+                "key": "year",
+                "value": "2023"
+              }
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+  
