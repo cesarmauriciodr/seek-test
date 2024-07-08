@@ -156,7 +156,7 @@ La documentación Swagger de la API está disponible en:
     ```
     
 ### Entregables:
-    - Repositorio de GitHub con el código fuente. [https://github.com/cesarmauriciodr/seek-test.git](https://github.com/cesarmauriciodr/seek-test.git)
-    - URL de la API desplegada en Amazon Web Services (AWS) (o en Azure o en GCP) usando los servicios en su capa free.
-    - Documentación de los endpoints en Swagger (disponible en pdf [aca swagger.pdf](swagger.pdf))
-    - Una colección en Postman con las llamadas a cada una de las APIs, incluyendo un par de casos ya grabados (uno con HTTP Status 200, exitoso y uno con 500, para caso de error) por cada endpoint.	(disponible en json file [aca postman.json](postman.json))
+- Repositorio de GitHub con el código fuente. [https://github.com/cesarmauriciodr/seek-test.git](https://github.com/cesarmauriciodr/seek-test.git)
+- URL de la API desplegada en Amazon Web Services (AWS) (o en Azure o en GCP) usando los servicios en su capa free.
+- Documentación de los endpoints en Swagger (disponible en pdf [aca swagger.pdf](swagger.pdf))
+- Una colección en Postman con las llamadas a cada una de las APIs, incluyendo un par de casos ya grabados (uno con HTTP Status 200, exitoso y uno con 500, para caso de error) por cada endpoint.	(disponible en json file [aca postman.json](postman.json))
