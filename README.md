@@ -153,7 +153,9 @@ La documentación Swagger de la API está disponible en:
 
     ```
     http://127.0.0.1:8000/swagger/
-    ### Entregables:
+    ```
+    
+### Entregables:
     - Repositorio de GitHub con el código fuente. [https://github.com/cesarmauriciodr/seek-test.git](https://github.com/cesarmauriciodr/seek-test.git)
     - URL de la API desplegada en Amazon Web Services (AWS) (o en Azure o en GCP) usando los servicios en su capa free.
     - Documentación de los endpoints en Swagger (disponible en pdf [aca swagger.pdf](swagger.pdf))
